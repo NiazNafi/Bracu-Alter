@@ -1,4 +1,0 @@
-QToolButton {
-    border: none; /* Remove the default border */
-    padding: 5px;
-}
