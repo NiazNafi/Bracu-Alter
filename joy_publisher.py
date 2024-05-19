@@ -71,3 +71,9 @@ if __name__ == '__main__':
         joy_listener()
     except rospy.ROSInterruptException:
         pass
+
+#/bin/python3 /home/bracu-alter/alter_ws/src/alter_control/scripts/menual_drive_node.py
+#Traceback (most recent call last):
+  #File "/home/bracu-alter/alter_ws/src/alter_control/scripts/menual_drive_node.py", line 25, in <module>
+    #GPIO.setup(pinMotorAForwards, GPIO.OUT)
+#RuntimeError: No access to /dev/mem.  Try running as root!
