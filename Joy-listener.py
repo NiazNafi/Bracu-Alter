@@ -9,36 +9,49 @@ def joy_callback(data):
     ax_2 = data.axes[2]
     ax_3 = data.axes[1]
     ax_4 = data.axes[0]
+    ax_5=data.axes[4]
+    ax_6=data.axes[5]
 
     # Extract the values of the buttons
-    button_1 = data.buttons[0]
-    button_2 = data.buttons[1]
-    button_3 = data.buttons[2]
-    button_4 = data.buttons[3]
-    button_5 = data.buttons[4]
-    if ax_3>0.2:
+    left_b = data.buttons[6]
+    right_b = data.buttons[7]
+
+    if ax_3>0.2 and left_b==0 and right_b==0:
         rospy.loginfo('Forward')
-    if ax_3<-0.2:
+    if ax_3<-0.2 and left_b==0 and right_b==0:
         rospy.loginfo('Backward')
     if ax_2>0.2:
         rospy.loginfo("left")
     if ax_2<-0.2:
         rospy.loginfo("right")
-    if ax_1>0.2:
+    if ax_1>0.2 and left_b==0 and right_b==0:
         rospy.loginfo("Flipper Forward Up")
-    if ax_2>-0.5:
+    elif ax_1<-0.5 and left_b==0 and right_b==0:
         rospy.loginfo("Flipper Forward Down")
     if ax_4>0.2:
         rospy.loginfo("Flipper BackWard Up")
-    if ax_4>-0.5:
+    elif ax_4<-0.5:
         rospy.loginfo("Flipper BackWard Down")
-    
-
-
-
-    # Print the values (or handle them as needed)
-    #rospy.loginfo(f"Axis 1: {ax_1}, Axis 2: {ax_2}, Axis 3: {ax_3}, Axis 4: {ax_4}")
-    rospy.loginfo(f"Button 1: {button_1}, Button 2: {button_2}, Button 3: {button_3}, Button 4: {button_4}, Button 5: {button_5}")
+    if ax_5<-0.5:
+        rospy.loginfo("All Flipper Up")
+    elif ax_6<-0.5:
+        rospy.loginfo("All Flipper Down")
+    if left_b>0.5 and ax_3>0.2:
+        rospy.loginfo("flipper left For Up")
+    elif left_b>0.5 and ax_3<-0.2:
+        rospy.loginfo("flipper left For Down")
+    if left_b>0.5 and ax_1>0.2:
+        rospy.loginfo("flipper Right For UP")
+    elif left_b>0.5 and ax_1<-0.2:
+        rospy.loginfo("flipper Right For Down")
+    if right_b>0.5 and ax_3>0.2:
+        rospy.loginfo("flipper left Back Up")
+    elif right_b>0.5 and ax_3<-0.2:
+        rospy.loginfo("flipper left Back Down")
+    if right_b>0.5 and ax_1>0.2:
+        rospy.loginfo("flipper Right Back UP")
+    elif right_b>0.5 and ax_1<-0.2:
+        rospy.loginfo("flipper Right Back Down")
 
 def joy_listener():
     rospy.init_node('joy_listener', anonymous=True)
