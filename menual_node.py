@@ -1,8 +1,7 @@
-#!/usr/bin/env python 3
+#!/usr/bin/env python3
 
 import rospy
 from std_msgs.msg import String
-
 import RPi.GPIO as GPIO
 
 # Set the GPIO modes
@@ -99,7 +98,7 @@ def CommandCallback(commandMessage):
 
 rospy.init_node('driver')
 
-rospy.Subscriber('command', String, CommandCallback)
+rospy.Subscriber('/command', String, CommandCallback)
 
 rospy.spin()
 print('Shutting down: stopping motors')
