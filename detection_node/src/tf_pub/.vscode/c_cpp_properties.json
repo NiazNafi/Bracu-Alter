@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/niaz/yolo_ros/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/niaz/yolo_ros/src/coordinate_estimation/include/**",
+        "/home/niaz/yolo_ros/src/darknet_ros/darknet_ros/include/**",
+        "/home/niaz/catkin_ws/src/hector_slam/hector_geotiff/include/**",
+        "/home/niaz/catkin_ws/src/hector_slam/hector_map_tools/include/**",
+        "/home/niaz/catkin_ws/src/hector_slam/hector_mapping/include/**",
+        "/home/niaz/catkin_ws/src/hector_slam/hector_marker_drawing/include/**",
+        "/home/niaz/catkin_ws/src/learning_tf/include/**",
+        "/home/niaz/catkin_ws/src/lidar_bot/localization/include/**",
+        "/home/niaz/yolo_ros/src/tf_pub/include/**",
+        "/home/niaz/catkin_ws/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/niaz/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/niaz/catkin_ws/src/turtlebot3/turtlebot3_slam/include/**",
+        "/home/niaz/catkin_ws/src/yolo/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

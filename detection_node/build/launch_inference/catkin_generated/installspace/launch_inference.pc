@@ -1,0 +1,8 @@
+prefix=/home/niaz/yolo_ros/install
+
+Name: launch_inference
+Description: Description of launch_inference
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
