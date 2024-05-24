@@ -1,0 +1,26 @@
+<launch>
+  <!-- launch RealSense camera -->
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch">
+    <arg name="align_depth" value="true" />
+    <arg name="color_width" value="640" />
+    <arg name="color_height" value="480" />
+    <arg name="color_fps" value="30" />
+    <arg name="depth_width" value="640" />
+    <arg name="depth_height" value="480" />
+    <arg name="depth_fps" value="30" />
+   </include>
+
+   
+
+   
+   <!-- node pkg="tf_pub" type="static_pub.py" name="static_tf_broadcaster"/ -->
+   <!-- node pkg="tf_pub" type="tf_pub.py" name="dynamic_tf_broadcaster"/ -->
+   <node pkg="tf_pub" type="static_tf_pub.py" name="static_tf_publisher"/>
+   <node pkg="yolo" type="recognition.py" name="camera_subscriber"/>
+   
+   
+   <node pkg="tf2_ros" type="static_transform_publisher" name = "map_to_camera_link" args = "1 1 0 0 0 0 1 map camera_link"/>
+   <node name="rviz" pkg="rviz" type="rviz" args="-d $(find launch_yolo)/my_rviz_config.rviz" />
+   
+   
+</launch>

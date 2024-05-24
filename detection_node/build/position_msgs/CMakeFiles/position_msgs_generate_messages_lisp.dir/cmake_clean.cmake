@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/niaz/yolo_ros/devel/share/common-lisp/ros/position_msgs/msg/ObjectPosition.lisp"
-  "/home/niaz/yolo_ros/devel/share/common-lisp/ros/position_msgs/msg/ObjectPositions.lisp"
+  "/home/niaz/catkin_ws/devel/share/common-lisp/ros/position_msgs/msg/ObjectPosition.lisp"
+  "/home/niaz/catkin_ws/devel/share/common-lisp/ros/position_msgs/msg/ObjectPositions.lisp"
   "CMakeFiles/position_msgs_generate_messages_lisp"
 )
 

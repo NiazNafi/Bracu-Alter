@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/niaz/yolo_ros/devel/setup.sh
+    local-name: /home/niaz/catkin_ws/devel/setup.sh

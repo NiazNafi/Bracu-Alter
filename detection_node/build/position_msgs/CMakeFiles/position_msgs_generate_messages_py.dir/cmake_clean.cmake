@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "/home/niaz/yolo_ros/devel/lib/python3/dist-packages/position_msgs/msg/_ObjectPosition.py"
-  "/home/niaz/yolo_ros/devel/lib/python3/dist-packages/position_msgs/msg/_ObjectPositions.py"
-  "/home/niaz/yolo_ros/devel/lib/python3/dist-packages/position_msgs/msg/__init__.py"
+  "/home/niaz/catkin_ws/devel/lib/python3/dist-packages/position_msgs/msg/_ObjectPosition.py"
+  "/home/niaz/catkin_ws/devel/lib/python3/dist-packages/position_msgs/msg/_ObjectPositions.py"
+  "/home/niaz/catkin_ws/devel/lib/python3/dist-packages/position_msgs/msg/__init__.py"
   "CMakeFiles/position_msgs_generate_messages_py"
 )
 

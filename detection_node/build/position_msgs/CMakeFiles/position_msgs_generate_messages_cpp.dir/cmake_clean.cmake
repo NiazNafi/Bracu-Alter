@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/niaz/yolo_ros/devel/include/position_msgs/ObjectPosition.h"
-  "/home/niaz/yolo_ros/devel/include/position_msgs/ObjectPositions.h"
+  "/home/niaz/catkin_ws/devel/include/position_msgs/ObjectPosition.h"
+  "/home/niaz/catkin_ws/devel/include/position_msgs/ObjectPositions.h"
   "CMakeFiles/position_msgs_generate_messages_cpp"
 )
 

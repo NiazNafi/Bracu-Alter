@@ -1,4 +1,4 @@
-prefix=/home/niaz/yolo_ros/devel
+prefix=/home/niaz/catkin_ws/devel
 
 Name: tf_pub
 Description: Description of tf_pub

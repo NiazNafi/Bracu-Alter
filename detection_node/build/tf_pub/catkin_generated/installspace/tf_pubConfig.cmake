@@ -67,14 +67,14 @@ set(tf_pub_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(tf_pub_SOURCE_PREFIX /home/niaz/yolo_ros/src/tf_pub)
-  set(tf_pub_DEVEL_PREFIX /home/niaz/yolo_ros/devel)
+  set(tf_pub_SOURCE_PREFIX /home/niaz/catkin_ws/src/tf_pub)
+  set(tf_pub_DEVEL_PREFIX /home/niaz/catkin_ws/devel)
   set(tf_pub_INSTALL_PREFIX "")
   set(tf_pub_PREFIX ${tf_pub_DEVEL_PREFIX})
 else()
   set(tf_pub_SOURCE_PREFIX "")
   set(tf_pub_DEVEL_PREFIX "")
-  set(tf_pub_INSTALL_PREFIX /home/niaz/yolo_ros/install)
+  set(tf_pub_INSTALL_PREFIX /home/niaz/catkin_ws/install)
   set(tf_pub_PREFIX ${tf_pub_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/niaz/yolo_ros/install/lib;/home/niaz/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/niaz/catkin_ws/install/lib;/home/niaz/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,0 +1,8 @@
+prefix=/home/niaz/catkin_ws/install
+
+Name: launch_yolo
+Description: Description of launch_yolo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

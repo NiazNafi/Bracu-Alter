@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/niaz/yolo_ros/src
+CMAKE_SOURCE_DIR = /home/niaz/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/niaz/yolo_ros/build
+CMAKE_BINARY_DIR = /home/niaz/catkin_ws/build
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -63,10 +63,10 @@ tf_pub/CMakeFiles/roscpp_generate_messages_eus.dir/build: roscpp_generate_messag
 .PHONY : tf_pub/CMakeFiles/roscpp_generate_messages_eus.dir/build
 
 tf_pub/CMakeFiles/roscpp_generate_messages_eus.dir/clean:
-	cd /home/niaz/yolo_ros/build/tf_pub && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/niaz/catkin_ws/build/tf_pub && $(CMAKE_COMMAND) -P CMakeFiles/roscpp_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : tf_pub/CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 tf_pub/CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/niaz/yolo_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niaz/yolo_ros/src /home/niaz/yolo_ros/src/tf_pub /home/niaz/yolo_ros/build /home/niaz/yolo_ros/build/tf_pub /home/niaz/yolo_ros/build/tf_pub/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/niaz/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niaz/catkin_ws/src /home/niaz/catkin_ws/src/tf_pub /home/niaz/catkin_ws/build /home/niaz/catkin_ws/build/tf_pub /home/niaz/catkin_ws/build/tf_pub/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tf_pub/CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

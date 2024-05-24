@@ -1,4 +1,4 @@
-prefix=/home/niaz/yolo_ros/install
+prefix=/home/niaz/catkin_ws/install
 
 Name: position_msgs
 Description: Description of position_msgs

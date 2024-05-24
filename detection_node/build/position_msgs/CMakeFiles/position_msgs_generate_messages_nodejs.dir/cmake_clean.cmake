@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/niaz/yolo_ros/devel/share/gennodejs/ros/position_msgs/msg/ObjectPosition.js"
-  "/home/niaz/yolo_ros/devel/share/gennodejs/ros/position_msgs/msg/ObjectPositions.js"
+  "/home/niaz/catkin_ws/devel/share/gennodejs/ros/position_msgs/msg/ObjectPosition.js"
+  "/home/niaz/catkin_ws/devel/share/gennodejs/ros/position_msgs/msg/ObjectPositions.js"
   "CMakeFiles/position_msgs_generate_messages_nodejs"
 )
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/niaz/yolo_ros/src
+CMAKE_SOURCE_DIR = /home/niaz/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/niaz/yolo_ros/build
+CMAKE_BINARY_DIR = /home/niaz/catkin_ws/build
 
 # Utility rule file for position_msgs_geneus.
 
@@ -63,10 +63,10 @@ position_msgs/CMakeFiles/position_msgs_geneus.dir/build: position_msgs_geneus
 .PHONY : position_msgs/CMakeFiles/position_msgs_geneus.dir/build
 
 position_msgs/CMakeFiles/position_msgs_geneus.dir/clean:
-	cd /home/niaz/yolo_ros/build/position_msgs && $(CMAKE_COMMAND) -P CMakeFiles/position_msgs_geneus.dir/cmake_clean.cmake
+	cd /home/niaz/catkin_ws/build/position_msgs && $(CMAKE_COMMAND) -P CMakeFiles/position_msgs_geneus.dir/cmake_clean.cmake
 .PHONY : position_msgs/CMakeFiles/position_msgs_geneus.dir/clean
 
 position_msgs/CMakeFiles/position_msgs_geneus.dir/depend:
-	cd /home/niaz/yolo_ros/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niaz/yolo_ros/src /home/niaz/yolo_ros/src/position_msgs /home/niaz/yolo_ros/build /home/niaz/yolo_ros/build/position_msgs /home/niaz/yolo_ros/build/position_msgs/CMakeFiles/position_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/niaz/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/niaz/catkin_ws/src /home/niaz/catkin_ws/src/position_msgs /home/niaz/catkin_ws/build /home/niaz/catkin_ws/build/position_msgs /home/niaz/catkin_ws/build/position_msgs/CMakeFiles/position_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : position_msgs/CMakeFiles/position_msgs_geneus.dir/depend
 

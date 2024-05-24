@@ -1,8 +1,8 @@
-# Install script for directory: /home/niaz/yolo_ros/src/position_msgs
+# Install script for directory: /home/niaz/catkin_ws/src/position_msgs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/niaz/yolo_ros/install")
+  set(CMAKE_INSTALL_PREFIX "/home/niaz/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,55 +39,55 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/position_msgs/msg" TYPE FILE FILES
-    "/home/niaz/yolo_ros/src/position_msgs/msg/ObjectPosition.msg"
-    "/home/niaz/yolo_ros/src/position_msgs/msg/ObjectPositions.msg"
+    "/home/niaz/catkin_ws/src/position_msgs/msg/ObjectPosition.msg"
+    "/home/niaz/catkin_ws/src/position_msgs/msg/ObjectPositions.msg"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/position_msgs/cmake" TYPE FILE FILES "/home/niaz/yolo_ros/build/position_msgs/catkin_generated/installspace/position_msgs-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/position_msgs/cmake" TYPE FILE FILES "/home/niaz/catkin_ws/build/position_msgs/catkin_generated/installspace/position_msgs-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/niaz/yolo_ros/devel/include/position_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/niaz/catkin_ws/devel/include/position_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/niaz/yolo_ros/devel/share/roseus/ros/position_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/niaz/catkin_ws/devel/share/roseus/ros/position_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/niaz/yolo_ros/devel/share/common-lisp/ros/position_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/niaz/catkin_ws/devel/share/common-lisp/ros/position_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/niaz/yolo_ros/devel/share/gennodejs/ros/position_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/niaz/catkin_ws/devel/share/gennodejs/ros/position_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/niaz/yolo_ros/devel/lib/python3/dist-packages/position_msgs")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/niaz/catkin_ws/devel/lib/python3/dist-packages/position_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/niaz/yolo_ros/devel/lib/python3/dist-packages/position_msgs")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/niaz/catkin_ws/devel/lib/python3/dist-packages/position_msgs")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/niaz/yolo_ros/build/position_msgs/catkin_generated/installspace/position_msgs.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/niaz/catkin_ws/build/position_msgs/catkin_generated/installspace/position_msgs.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/position_msgs/cmake" TYPE FILE FILES "/home/niaz/yolo_ros/build/position_msgs/catkin_generated/installspace/position_msgs-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/position_msgs/cmake" TYPE FILE FILES "/home/niaz/catkin_ws/build/position_msgs/catkin_generated/installspace/position_msgs-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/position_msgs/cmake" TYPE FILE FILES
-    "/home/niaz/yolo_ros/build/position_msgs/catkin_generated/installspace/position_msgsConfig.cmake"
-    "/home/niaz/yolo_ros/build/position_msgs/catkin_generated/installspace/position_msgsConfig-version.cmake"
+    "/home/niaz/catkin_ws/build/position_msgs/catkin_generated/installspace/position_msgsConfig.cmake"
+    "/home/niaz/catkin_ws/build/position_msgs/catkin_generated/installspace/position_msgsConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/position_msgs" TYPE FILE FILES "/home/niaz/yolo_ros/src/position_msgs/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/position_msgs" TYPE FILE FILES "/home/niaz/catkin_ws/src/position_msgs/package.xml")
 endif()
 

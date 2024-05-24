@@ -7,9 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH='/home/niaz/yolo_ros/devel:/home/niaz/catkin_ws/devel:/opt/ros/noetic'
-export LD_LIBRARY_PATH='/home/niaz/yolo_ros/devel/lib:/home/niaz/catkin_ws/devel/lib:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu'
-export PKG_CONFIG_PATH='/home/niaz/yolo_ros/devel/lib/pkgconfig:/home/niaz/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig:/opt/ros/noetic/lib/x86_64-linux-gnu/pkgconfig'
-export PWD='/home/niaz/yolo_ros/build'
-export PYTHONPATH='/home/niaz/yolo_ros/devel/lib/python3/dist-packages:/opt/ros/noetic/lib/python3/dist-packages'
-export ROS_PACKAGE_PATH='/home/niaz/yolo_ros/src:/home/niaz/catkin_ws/src:/opt/ros/noetic/share'
+export PATH='/opt/ros/noetic/bin:/home/niaz/ENTER/condabin:~/Downloads/android-studio/bin:/home/niaz/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'
+export PWD='/home/niaz/catkin_ws/build'
